@@ -1,4 +1,4 @@
-**Project 1: Automated ELK Stack Deployment:**
+--**Project 1: Automated ELK Stack Deployment:**--
 
 The files in this repository were used to configure the network depicted below.
 
@@ -19,7 +19,7 @@ ELK Configuration
   Machines Being Monitored
 How to Use the Ansible Build
 
-**Description of the Topology**
+--**Description of the Topology**--
 
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
@@ -32,7 +32,7 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 
 The configuration details of each machine may be found below. Note: Use the Markdown Table Generator to add/remove values from the table.
 
-**Access Policies**
+--**Access Policies**--
 
 The machines on the internal network are not exposed to the public Internet. 
 
@@ -45,7 +45,7 @@ Machines within the network can only be accessed by connecting to the jumpbox wi
 A summary of the access policies in place can be found in the table below.
 
 
-**Elk Configuration**
+--**Elk Configuration**--
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because:
   The automated scripts built increase scalability, meaning it can be used on any number of machines to deploy additional     ELK stacks as needed or as an organization grows.
@@ -59,7 +59,7 @@ The playbook implements the following tasks:
 The following screenshot displays the result of running docker ps after successfully configuring the ELK instance.
   Update the path with the name of your screenshot of docker ps output
 
-**Target Machines & Beats**
+--**Target Machines & Beats**--
 
 This ELK server is configured to monitor the following machines:
   List the IP addresses of the machines you are monitoring. We are monitoring Web-1 (10.0.0.5), Web-2 (10.0.0.6), and Web-3   (10.0.0.7).
@@ -72,7 +72,7 @@ These Beats allow us to collect the following information from each machine:
   Metricbreat collects & logs systems files for system level analysis.
   Filebeat monitors location files.
 
-**Using the Playbook**
+--**Using the Playbook**--
 
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: SSH into the control node and follow the steps below:
   Copy the file to Ansible configuration file to /etc/ansible to begin the process of running the created playbook(s).
@@ -91,6 +91,6 @@ As a Bonus, provide the specific commands the user will need to run to download 
 -sudo docker run [name of container] bash
 -sudo docker start [name of container]
 -sudo docker attach [name of container]
-- cd /etc/ansible
+-cd /etc/ansible
 -Nano ansible.cfg to specify the remote user.
 -ansible-playbook [name of playbook]
