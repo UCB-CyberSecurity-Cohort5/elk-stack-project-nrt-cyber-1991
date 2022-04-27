@@ -34,6 +34,13 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 
 The configuration details of each machine may be found below. Note: Use the Markdown Table Generator to add/remove values from the table.
 
+| Name     | Function | IP Address | Operating System |
+|----------|----------|------------|------------------|
+| Jump Box | Gateway  | 10.0.0.1   | Linux            |
+| TODO     |          |            |                  |
+| TODO     |          |            |                  |
+| TODO     |          |            |                  |
+
 --**Access Policies**--
 
 The machines on the internal network are not exposed to the public Internet. 
@@ -46,6 +53,11 @@ Machines within the network can only be accessed by connecting to the jumpbox wi
 
 A summary of the access policies in place can be found in the table below.
 
+| Name     | Publicly Accessible | Allowed IP Addresses |
+|----------|---------------------|----------------------|
+| Jump Box | Yes/No              | 10.0.0.1 10.0.0.2    |
+|          |                     |                      |
+|          |                     |                      |
 
 --**Elk Configuration**--
 
@@ -54,9 +66,10 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 
 The playbook implements the following tasks:
   In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc.
-  We begin by creating a virtual network, with machines in a different region than our Web/Jumpbox network of machines. A     peering is then created to connect them, and the same resource group must be used on the original virtual machine.
-  Afterwards, a new VM is created, and the IP address of this VM is added to the Jumpbox’s ansible host files.
-   Finally, a playbook for Docker.io & python3-pip installation is created & tested in the container.
+* We begin by creating a virtual network, with machines in a different region than our Web/Jumpbox network of machines. 
+* A peering is then created to connect them, and the same resource group must be used on the original virtual machine.
+* Afterwards, a new VM is created, and the IP address of this VM is added to the Jumpbox’s ansible host files.
+* Finally, a playbook for Docker.io & python3-pip installation is created & tested in the container.
 
 The following screenshot displays the result of running docker ps after successfully configuring the ELK instance.
   Update the path with the name of your screenshot of docker ps output
@@ -70,9 +83,9 @@ We have installed the following Beats on these machines:
   Filebeat & Metricbeat are successfully installed.
 
 These Beats allow us to collect the following information from each machine:
-  In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g.,       Winlogbeat collects Windows logs, which we use to track user logon events, etc.
-  Metricbreat collects & logs systems files for system level analysis.
-  Filebeat monitors location files.
+  In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g.,     * Winlogbeat collects Windows logs, which we use to track user logon events, etc.
+* Metricbreat collects & logs systems files for system level analysis.
+* Filebeat monitors location files.
 
 --**Using the Playbook**--
 
