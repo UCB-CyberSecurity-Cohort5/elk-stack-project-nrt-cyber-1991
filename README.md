@@ -123,3 +123,12 @@ As a Bonus, provide the specific commands the user will need to run to download 
 * cd /etc/ansible
 * nano ansible.cfg to specify the remote user.
 * ansible-playbook [name of playbook]
+
+--**References**--
+
+References
+A Guide to using Kibana and the GUI interface with sample data can be found in the following documentation:
+Guide to Exploring Kibana
+
+An overview about how to maintain cloud security can be found here.
+Cloud Security: Containers
