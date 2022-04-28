@@ -82,10 +82,6 @@ The playbook implements the following tasks:
 * Afterwards, a new VM is created, and the IP address of this VM is added to the Jumpbox’s ansible host files.
 * Finally, a playbook for Docker.io & python3-pip installation is created & tested in the container.
 
-The following screenshot displays the result of running docker ps after successfully configuring the ELK instance.
-  Update the path with the name of your screenshot of docker ps output
-
-
 --**Target Machines & Beats**--
 
 This ELK server is configured to monitor the following machines:
