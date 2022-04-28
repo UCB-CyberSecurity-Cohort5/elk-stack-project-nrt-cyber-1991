@@ -115,6 +115,7 @@ Which file do you update to make Ansible run the playbook on a specific machine?
 
 Which URL do you navigate to in order to check that the ELK server is running?
 * http://[ELKSERVER_ipaddress]:5601/app/kibana/home
+
 ![image](https://github.com/UCB-CyberSecurity-Cohort5/elk-stack-project-nrt-cyber-1991/blob/main/Images/Kibana%20Sample%20Data%20Screen.png)
 
 As a Bonus, provide the specific commands the user will need to run to download the playbook, update the files, etc.
