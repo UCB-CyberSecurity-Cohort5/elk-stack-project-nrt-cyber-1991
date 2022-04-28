@@ -8,11 +8,11 @@ These files have been tested and used to generate a live ELK deployment on Azure
 recreate the entire deployment pictured above. Alternatively, select portions of the playbook file may be used to install only certain pieces of it, such as Filebeat.
 
 * [Install-elk.yml](https://github.com/UCB-CyberSecurity-Cohort5/elk-stack-project-nrt-cyber-1991/blob/main/Ansible/install-elk.yml): Modifies virtual memory and enables configuration of Docker VMs in Ansible for DVWA Container.
-* [Filebeat-config.yml](https://github.com/UCB-CyberSecurity-Cohort5/elk-stack-project-nrt-cyber-1991/blob/main/Ansible/filebeat-config.yml): The configuration file for 
+* [Filebeat-config.yml](https://github.com/UCB-CyberSecurity-Cohort5/elk-stack-project-nrt-cyber-1991/blob/main/Ansible/filebeat-config.yml): The configuration file for the Filebeat playbook.
 * [Filebeat-playbook.yml](https://github.com/UCB-CyberSecurity-Cohort5/elk-stack-project-nrt-cyber-1991/blob/main/Ansible/filebeat-playbook.yml): The playbook that allows installation of Filebeat to the ELK Stack.
-* [Metricbeat-config.yml](https://github.com/UCB-CyberSecurity-Cohort5/elk-stack-project-nrt-cyber-1991/blob/main/Ansible/metricbeat-config.yml): The configuration file for 
+* [Metricbeat-config.yml](https://github.com/UCB-CyberSecurity-Cohort5/elk-stack-project-nrt-cyber-1991/blob/main/Ansible/metricbeat-config.yml): The configuration file for the Metricbeat playbook.
 * [Metricbeat-playbook.yml](https://github.com/UCB-CyberSecurity-Cohort5/elk-stack-project-nrt-cyber-1991/blob/main/Ansible/metricbeat-playbook.yml): The playbook that allows installation of Metricbeat to the ELK Stack.
-* [Pentest.yml](https://github.com/UCB-CyberSecurity-Cohort5/elk-stack-project-nrt-cyber-1991/blob/main/Ansible/pentest.yml): 
+* [Pentest.yml](https://github.com/UCB-CyberSecurity-Cohort5/elk-stack-project-nrt-cyber-1991/blob/main/Ansible/pentest.yml): Launches DVWA container (Docker).
 
 This document contains the following details:
 
