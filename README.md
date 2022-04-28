@@ -36,12 +36,13 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 
 The configuration details of each machine may be found below.
 
-| Name     | Function | IP Address | Operating System |
-|----------|----------|------------|------------------|
-| Jump Box | Gateway  | 10.0.0.1   | Linux            |
-| TODO     |          |            |                  |
-| TODO     |          |            |                  |
-| TODO     |          |            |                  |
+| Name       | Function                                  | IP Address | Operating System     |
+|------------|-------------------------------------------|------------|----------------------|
+| ELK-Server | Facilitation of Elastic, Logstash, Kibana | 10.1.0.4   | Ubuntu 18.04 (Linux) |
+| Jump Box   | Gateway                                   | 10.0.0.1   | Ubuntu 18.04 (Linux) |
+| Web-1      | Container for DVWA                        | 10.0.0.5   | Ubuntu 18.04 (Linux) |
+| Web-2      | Container for DVWA                        | 10.0.0.6   | Ubuntu 18.04 (Linux) |
+| Web-3      | Container for DVWA                        | 10.0.0.7   | Ubuntu 18.04 (Linux) |
 
 
 --**Access Policies**--
@@ -57,11 +58,13 @@ Machines within the network can only be accessed by connecting to the jumpbox wi
 
 A summary of the access policies in place can be found in the table below.
 
-| Name     | Publicly Accessible | Allowed IP Addresses |
-|----------|---------------------|----------------------|
-| Jump Box | Yes/No              | 10.0.0.1 10.0.0.2    |
-|          |                     |                      |
-|          |                     |                      |
+| Name       | Publicly Accessible | Allowed IP Addresses |
+|------------|---------------------|----------------------|
+| ELK-Server | No                  | 10.0.0.4             |
+| Jump Box   | No                  | 50.18.75.167         |
+| Web-1      | No                  | 10.0.0.4             |
+| Web-2      | No                  | 10.0.0.4             |
+| Web-3      | No                  | 10.0.0.4             |
 
 
 --**Elk Configuration**--
