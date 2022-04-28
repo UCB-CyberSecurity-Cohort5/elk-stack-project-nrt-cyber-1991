@@ -74,6 +74,10 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 
 The playbook implements the following tasks:
 * We begin by creating a virtual network, with machines in a different region than our Web/Jumpbox network of machines. 
+
+![image](https://github.com/UCB-CyberSecurity-Cohort5/elk-stack-project-nrt-cyber-1991/blob/main/Images/ELK-NET%20Settings.png)
+
+
 * A peering is then created to connect them, and the same resource group must be used on the original virtual machine.
 * Afterwards, a new VM is created, and the IP address of this VM is added to the Jumpbox’s ansible host files.
 * Finally, a playbook for Docker.io & python3-pip installation is created & tested in the container.
@@ -118,7 +122,7 @@ Which URL do you navigate to in order to check that the ELK server is running?
 
 ![image](https://github.com/UCB-CyberSecurity-Cohort5/elk-stack-project-nrt-cyber-1991/blob/main/Images/Kibana%20Sample%20Data%20Screen.png)
 
-As a Bonus, provide the specific commands the user will need to run to download the playbook, update the files, etc.
+Please see the specific commands the user will need to run to download the playbook, update the files, etc.
 * ssh redadmin@jump-box-ip-address
 * sudo docker pull [name of container]
 * sudo docker run [name of container] bash
