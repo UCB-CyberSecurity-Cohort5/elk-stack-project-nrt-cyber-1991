@@ -106,13 +106,16 @@ In order to use the playbook, you will need to have an Ansible control node alre
 * Run the playbook, and navigate to the Kibana web page to check that the installation worked as expected.
 
 Which file is the playbook? Where do you copy it? 
-* “Install-elk.yml” is the playbook file, which was copied to the /ansible   directory.
+* “Install-elk.yml” is the playbook file, which was copied to the /ansible directory.
+![image](https://github.com/UCB-CyberSecurity-Cohort5/elk-stack-project-nrt-cyber-1991/blob/main/Images/install-elk%20playbook.png)
 
 Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on? 
 * You must update the filebeat-config.yml file, specifying the host IP address for Kibana.
+![image](https://github.com/UCB-CyberSecurity-Cohort5/elk-stack-project-nrt-cyber-1991/blob/main/Images/filebeat-playbook.png)
 
 Which URL do you navigate to in order to check that the ELK server is running?
 * http://[ELKSERVER_ipaddress]:5601/app/kibana/home
+![image](https://github.com/UCB-CyberSecurity-Cohort5/elk-stack-project-nrt-cyber-1991/blob/main/Images/Kibana%20Sample%20Data%20Screen.png)
 
 As a Bonus, provide the specific commands the user will need to run to download the playbook, update the files, etc.
 * ssh redadmin@jump-box-ip-address
