@@ -22,6 +22,7 @@ This document contains the following details:
 * Machines Being Monitored
 * How to Use the Ansible Build
 
+
 --**Description of the Topology**--
 
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
@@ -40,6 +41,7 @@ The configuration details of each machine may be found below.
 | TODO     |          |            |                  |
 | TODO     |          |            |                  |
 | TODO     |          |            |                  |
+
 
 --**Access Policies**--
 
@@ -60,6 +62,7 @@ A summary of the access policies in place can be found in the table below.
 |          |                     |                      |
 |          |                     |                      |
 
+
 --**Elk Configuration**--
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because:
@@ -73,6 +76,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running docker ps after successfully configuring the ELK instance.
   Update the path with the name of your screenshot of docker ps output
+
 
 --**Target Machines & Beats**--
 
@@ -88,6 +92,7 @@ These Beats allow us to collect the following information from each machine:
 * Winlogbeat collects Windows logs, which we use to track user logon events, etc.
 * Metricbreat collects & logs systems files for system level analysis.
 * Filebeat monitors location files.
+
 
 --**Using the Playbook**--
 
