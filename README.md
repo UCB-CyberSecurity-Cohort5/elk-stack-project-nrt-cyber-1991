@@ -126,6 +126,6 @@ As a Bonus, provide the specific commands the user will need to run to download 
 
 --**References**--
 
-An overview about how to maintain cloud security & access control can be found here.
+An overview about how to maintain cloud security & access control in the context of this project can be found here.
 
 [Cloud Access Control](https://github.com/UCB-CyberSecurity-Cohort5/elk-stack-project-nrt-cyber-1991/blob/main/Project%201_%20Interview%20Questions_%20Cloud%20Security.pdf)
