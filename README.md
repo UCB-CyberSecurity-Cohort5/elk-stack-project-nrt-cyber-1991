@@ -52,7 +52,7 @@ Only the Jumpbox machine can accept connections from the Internet. Access to thi
 * 50.18.75.167.
 
 Machines within the network can only be accessed by connecting to the jumpbox with a valid SSH key with a whitelisted private IP address..
-* The Jumpbox was the machine that was configured & allowed to access the ELK VM?
+* The Jumpbox was the machine that was configured & allowed to access the ELK VM.
 * The Jumpbox’s public IP address is 40.78.52.137, and its private IP address is 10.0.0.4.
 
 A summary of the access policies in place can be found in the table below.
