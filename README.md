@@ -126,9 +126,5 @@ As a Bonus, provide the specific commands the user will need to run to download 
 
 --**References**--
 
-References
-A Guide to using Kibana and the GUI interface with sample data can be found in the following documentation:
-Guide to Exploring Kibana
-
 An overview about how to maintain cloud security can be found here.
-Cloud Security: Containers
+[Cloud Security: Containers](https://github.com/UCB-CyberSecurity-Cohort5/elk-stack-project-nrt-cyber-1991/blob/main/Project%201_%20Interview%20Questions_%20Cloud%20Security.pdf)
